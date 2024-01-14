@@ -73,10 +73,10 @@ struct ContentView: View {
     
     func deal() {
         // Randomize the cards
-        var playerCardNum = Int.random(in: 2...14)
+        let playerCardNum = Int.random(in: 2...14)
         playerCard = "card" + String(playerCardNum)
         
-        var aiCardNum = Int.random(in: 2...14)
+        let aiCardNum = Int.random(in: 2...14)
         aiCard = "card" + String(aiCardNum)
         
         // Update the scores
